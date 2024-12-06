@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "My brain is open" - Paul Erdős
+subtitle: "My brain is open" - Paul Erdos
 
 profile:
   align: right
