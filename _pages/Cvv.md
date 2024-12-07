@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /assets/pdf/example_pdf.pdf
-title: CVV
+permalink: /assets/pdf/Cole_Swain_CV.pdf
+title: cvv
 nav: true
 nav_order: 6
 ---
