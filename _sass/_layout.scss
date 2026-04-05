@@ -36,6 +36,16 @@ body.sticky-bottom-footer {
   img {
     width: 100%;
   }
+  .profile-left {
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 15px;
+}
+
+.profile-left img {
+  width: 240px;
+  height: auto;
+}
 }
 
 // TODO: redefine content layout.
