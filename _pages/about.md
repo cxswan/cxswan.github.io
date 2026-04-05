@@ -5,7 +5,7 @@ permalink: /
 subtitle: 
 
 profile:
-  align: center
+  align: left
   image: DSCF3930-2.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
