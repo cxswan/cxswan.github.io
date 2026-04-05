@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post" style="text-align: center; max-width: 800px; margin: 0 auto;">
+<div class="post" style="max-width: 800px; margin: 0 auto;">
 
   {% if page.profile and page.profile.image %}
     <div class="profile" style="margin-bottom: 20px;">
@@ -12,7 +12,7 @@ layout: default
         {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
       {% endif %}
       {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.6}}px, (min-width: 576px) 60vw, 95vw"{% endcapture %}
-      <div style="display: flex; justify-content: center;">
+      <div class="profile-left">
       {% include figure.liquid 
          loading="eager" 
          path=profile_image_path 
@@ -28,8 +28,9 @@ layout: default
       {% endif %}
     </div>
   {% endif %}
+<div style="clear: both;"></div>
 
-  <header class="post-header">
+  <header class="post-header" style="text-align: left;">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
         {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
